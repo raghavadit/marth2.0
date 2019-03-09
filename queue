@@ -1,0 +1,10 @@
+from collections import deque 
+queue = deque(["Ram", "Tarun", "chetan", "kashim"]) 
+print(queue) 
+queue.append("shivam") 
+print(queue) 
+queue.append("vijay") 
+print(queue) 
+print(queue.popleft())                  
+print(queue.popleft())                  
+print(queue)
