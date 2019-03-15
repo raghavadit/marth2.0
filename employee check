@@ -1,0 +1,18 @@
+class Employee:
+   first= str(firstname) 
+   last= str(lastname)
+   sala= float(salary)
+
+ def__init__(self,first,last,sala):
+     self.first = first
+     self.last = last
+     self.sala = sala
+     
+     if sala < 0:
+         print('invalid ')
+     else:
+         print('firstname=',self.first)
+         print('lastname=',self.last)
+         print('salary=',sala)
+         
+employee= Employee(purav,parekh,50000)
