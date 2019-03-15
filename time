@@ -1,0 +1,13 @@
+class time:
+    def __init__(self,hour,minutes,seconds):
+        self.hour = hour
+        self.minutes = minutes
+        self.seconds =seconds
+        
+    def showtime (self):
+        print('time in hour',self.hour)
+        print('time in minutes',self.minutes)
+        print('time in seconds',self.seconds)
+        
+time = time(10,56,06)
+time.showtime()
