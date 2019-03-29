@@ -1,0 +1,7 @@
+file = open("d:/purav/raghvendra.txt",'w')
+file.write('mera friend big balu #purav')
+file.close()
+
+file =open("d:/purav/raghvendra.txt",'r')
+for each in file:
+    print(each)
